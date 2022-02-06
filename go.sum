@@ -256,6 +256,8 @@ github.com/kirigaikabuto/setdata-common v1.0.1-0.20211104130143-ab6a82248106 h1:
 github.com/kirigaikabuto/setdata-common v1.0.1-0.20211104130143-ab6a82248106/go.mod h1:A5j+H7WGjHH0vqZ2oYNqrx8OpZfOd5Lp5PsxSqyXmOk=
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204110111-c3e3fe412a9b h1:S3KHWhsgaFZDlTlVsKUi25weUzK+bTT7yEq18X9pYQk=
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204110111-c3e3fe412a9b/go.mod h1:GpjXmJDIDDj4Yb1TjRu60nZRGVf4TiVu7WYBCMdDil4=
+github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204112142-105cfe1ceb99 h1:RwRsG4lkuY+L+R6r52UaoIiUnAWpih2PKZkxwGWkNU8=
+github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204112142-105cfe1ceb99/go.mod h1:GpjXmJDIDDj4Yb1TjRu60nZRGVf4TiVu7WYBCMdDil4=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220204102801-eb5a5206ec63 h1:OBz8fj5MSbrwo8iBiRTJkOFRZyO6aTFygQJyIYWmWlQ=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220204102801-eb5a5206ec63/go.mod h1:SEgcNZia7NrlXXObsGo0QAa0wOqC5QkuVLOqcp96Mqg=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=

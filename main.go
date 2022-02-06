@@ -94,8 +94,7 @@ func run(c *cli.Context) error {
 	{
 		testGroup.POST("/login", httpEndpoints.MakeLoginEndpoint())
 	}
-	_ = r.Run(port)
-	return nil
+	return r.Run()
 }
 
 func main() {
