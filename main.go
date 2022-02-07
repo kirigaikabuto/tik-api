@@ -89,6 +89,7 @@ func run(c *cli.Context) error {
 	authGroup := r.Group("/auth")
 	{
 		authGroup.POST("/login", httpEndpoints.MakeLoginEndpoint())
+		authGroup.POST("/register", httpEndpoints.MakeRegisterEndpoint())
 	}
 	filesGroup := r.Group("/files", mdw.MakeMiddleware())
 	{
