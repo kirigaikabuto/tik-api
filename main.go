@@ -116,7 +116,7 @@ func run(c *cli.Context) error {
 		filesGroup.GET("/", httpEndpoints.MakeListFilesEndpoint())
 		filesGroup.GET("/id", httpEndpoints.MakeGetFileByIdEndpoint())
 		filesGroup.PUT("/", httpEndpoints.MakeUpdateFileEndpoint())
-		filesGroup.PUT("/file", httpEndpoints.MakeUpdateFileEndpoint())
+		filesGroup.PUT("/file", httpEndpoints.MakeUploadFileEndpoint())
 		filesGroup.DELETE("/", httpEndpoints.MakeDeleteFileEndpoint())
 	}
 	return r.Run()
