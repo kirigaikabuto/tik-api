@@ -90,10 +90,12 @@ func run(c *cli.Context) error {
 	{
 		authGroup.POST("/login", httpEndpoints.MakeLoginEndpoint())
 	}
-	testGroup := r.Group("/files", mdw.MakeMiddleware())
+	filesGroup := r.Group("/files", mdw.MakeMiddleware())
 	{
-		testGroup.POST("/", httpEndpoints.MakeCreateFileEndpoint())
-		testGroup.GET("/", httpEndpoints.MakeListFilesEndpoint())
+		filesGroup.POST("/", httpEndpoints.MakeCreateFileEndpoint())
+		filesGroup.GET("/", httpEndpoints.MakeListFilesEndpoint())
+		filesGroup.GET("/id", httpEndpoints.MakeGetFileByIdEndpoint())
+		filesGroup.PUT("/", httpEndpoints.MakeUpdateFileEndpoint())
 	}
 	return r.Run()
 }
