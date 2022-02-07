@@ -258,8 +258,12 @@ github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204110111-c3e3fe412a9b h1:S3KHW
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204110111-c3e3fe412a9b/go.mod h1:GpjXmJDIDDj4Yb1TjRu60nZRGVf4TiVu7WYBCMdDil4=
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204112142-105cfe1ceb99 h1:RwRsG4lkuY+L+R6r52UaoIiUnAWpih2PKZkxwGWkNU8=
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220204112142-105cfe1ceb99/go.mod h1:GpjXmJDIDDj4Yb1TjRu60nZRGVf4TiVu7WYBCMdDil4=
+github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207135121-cfc1631fcbb7 h1:bYJV9ap4u0lAECAA0YNkYgLdZuWkTXc/0Hspp4GxOhw=
+github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207135121-cfc1631fcbb7/go.mod h1:n3R6OMHuhfWAOsTrH1GfXQB01mc5Mk1453vaxlNtHWI=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220204102801-eb5a5206ec63 h1:OBz8fj5MSbrwo8iBiRTJkOFRZyO6aTFygQJyIYWmWlQ=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220204102801-eb5a5206ec63/go.mod h1:SEgcNZia7NrlXXObsGo0QAa0wOqC5QkuVLOqcp96Mqg=
+github.com/kirigaikabuto/tik-lib v0.0.0-20220207132415-31e11d0ec6e0 h1:mXQ6RS5bKP7C9/6FQvPSFHDmQ6E5qrpuDBSLGP0rZwk=
+github.com/kirigaikabuto/tik-lib v0.0.0-20220207132415-31e11d0ec6e0/go.mod h1:SEgcNZia7NrlXXObsGo0QAa0wOqC5QkuVLOqcp96Mqg=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/konsorten/go-windows-terminal-sequences v0.0.0-20180402223658-b729f2633dfe/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
