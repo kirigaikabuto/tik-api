@@ -13,15 +13,22 @@ import (
 )
 
 var (
-	configName = "main"
-	configPath = "/config/"
-	version    = "0.0.1"
-	amqpHost   = ""
-	amqpPort   = ""
-	amqpUrl    = ""
-	redisHost  = ""
-	redisPort  = ""
-	flags      = []cli.Flag{
+	configName              = "main"
+	configPath              = "/config/"
+	version                 = "0.0.1"
+	amqpHost                = ""
+	amqpPort                = ""
+	amqpUrl                 = ""
+	redisHost               = ""
+	redisPort               = ""
+	s3endpoint              = "https://s3.us-east-2.amazonaws.com"
+	s3bucket                = "setdata"
+	s3accessKey             = "AKIA54CP6OJQEHUI6KFO"
+	s3secretKey             = "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"
+	s3uploadedFilesBasePath = "https://setdata.s3.us-east-2.amazonaws.com"
+	s3region                = "us-east-2"
+	port                    = "8080"
+	flags                   = []cli.Flag{
 		&cli.StringFlag{
 			Name:        "config, c",
 			Usage:       "path to .env config file",
@@ -80,7 +87,19 @@ func run(c *cli.Context) error {
 		return err
 	}
 	amqpRequest := tik_api_lib.NewAmqpRequests(clt)
-	service := tik_api_lib.NewService(amqpRequest, redisStore)
+
+	s3, err := tik_api_lib.NewS3Uploader(
+		s3endpoint,
+		s3accessKey,
+		s3secretKey,
+		s3bucket,
+		s3uploadedFilesBasePath,
+		s3region)
+	if err != nil {
+		return err
+	}
+
+	service := tik_api_lib.NewService(amqpRequest, redisStore, s3)
 	httpEndpoints := tik_api_lib.NewHttpEndpoints(setdata_common.NewCommandHandler(service))
 	mdw := token_str.NewMiddleware(redisStore)
 	gin.SetMode(gin.ReleaseMode)
