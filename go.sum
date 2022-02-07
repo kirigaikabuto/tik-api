@@ -264,6 +264,8 @@ github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207140540-7b87b3ef6a77 h1:vKlhT
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207140540-7b87b3ef6a77/go.mod h1:n3R6OMHuhfWAOsTrH1GfXQB01mc5Mk1453vaxlNtHWI=
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207153139-0fd1ce7f4a8d h1:a05Kvo7+rqluWhGV/wfxyvuhkgQHY+CSoqoFL6bfmzM=
 github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207153139-0fd1ce7f4a8d/go.mod h1:n3R6OMHuhfWAOsTrH1GfXQB01mc5Mk1453vaxlNtHWI=
+github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207154104-7a05333ddb9c h1:s6MbUi/VEjqoCbFrlBbVt3jDTuo0VZ89mWFsV7cSdg4=
+github.com/kirigaikabuto/tik-api-lib v0.0.0-20220207154104-7a05333ddb9c/go.mod h1:n3R6OMHuhfWAOsTrH1GfXQB01mc5Mk1453vaxlNtHWI=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220204102801-eb5a5206ec63 h1:OBz8fj5MSbrwo8iBiRTJkOFRZyO6aTFygQJyIYWmWlQ=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220204102801-eb5a5206ec63/go.mod h1:SEgcNZia7NrlXXObsGo0QAa0wOqC5QkuVLOqcp96Mqg=
 github.com/kirigaikabuto/tik-lib v0.0.0-20220207132415-31e11d0ec6e0 h1:mXQ6RS5bKP7C9/6FQvPSFHDmQ6E5qrpuDBSLGP0rZwk=
